@@ -74,7 +74,7 @@ def reduce_to_total(source_array, starting_point=0)
 end 
 
 
-def reduce_to_true(array)
+def reduce_to_true(source_array)
   i = 0
   while i < array.length do 
     return false if array[i] == false
