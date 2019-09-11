@@ -76,8 +76,8 @@ end
 
 def reduce_to_all_true(source_array)
   i = 0
-  while i < array.length do 
-    return false if array[i] == false
+  while i < source_array.length do 
+    return false if source_array[i] == false
     i += 1
   end
   return true
